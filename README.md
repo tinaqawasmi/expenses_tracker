@@ -11,14 +11,11 @@ Search entries: Find entries by date, amount, or category.
 Delete an entry: Remove an entry based on search criteria.
 Installation
 
-To use the Expense Logger, follow these steps:
+To use the Expenses Tracker, follow these steps:
 
 Clone the repository:
-git clone https://github.com/your-username/expense-logger.git
+git clone https://github.com/tinaqawasmi/expenses_tracker.git
 cd expense-logger
-Install Python: Ensure you have Python 3.x installed on your system. You can download Python from here.
-Run the application: To run the application, simply execute the following command:
-python expense_logger.py
 Dependencies: This project requires no external dependencies apart from Python's built-in libraries (csv, datetime, sys).
 Usage
 
@@ -44,7 +41,7 @@ Transport: $5.75
 Total spent: $18.25
 File Structure
 
-expense_logger.py: The main Python script that runs the expense logging application.
+expenses_tracker.py: The main Python script that runs the expense logging application.
 expenses.csv: A CSV file that stores all logged expense entries.
 Notes
 
